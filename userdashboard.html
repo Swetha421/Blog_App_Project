@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-yellow-400 text-white p-6">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold">Dashboard</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li class="mb-4"><a href="home.html" class="hover:underline text-xl">Home</a></li>
+                    <li class="mb-4"><a href="userdashboard.html" class="hover:underline text-xl">Create New Blog</a></li>
+                    <li class="mb-4"><a href="#" class="hover:underline text-xl">Manage Blogs</a></li>
+                    <li class="mb-4"><a href="profile.html" class="hover:underline text-xl">Profile</a></li>
+                    <li><a href="home.html" class="hover:underline text-xl">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        
+        <div class="flex-1 p-6">
+            <header class="mb-8">
+                <h1 class="text-3xl font-bold">Welcome to Your Dashboard</h1>
+            </header>
+
+            
+            <section class="mb-8">
+               <a href="userdashboard.html"><h2 class="text-2xl font-bold mb-4">Create New Blog</h2></a> 
+                <form class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="mb-4">
+                        <label for="title" class="block text-gray-700">Title</label>
+                        <input type="text" id="title" class="w-full p-2 border border-gray-300 rounded mt-2">
+                    </div>
+                    <div class="mb-4">
+                        <label for="content" class="block text-gray-700">Content</label>
+                        <textarea id="content" class="w-full p-2 border border-gray-300 rounded mt-2" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+                </form>
+            </section>
+
+            
+            
+            
+    <section>
+     <h2 class="text-2xl font-bold mb-4">Manage Blogs</h2>
+         <div class="bg-white p-6 rounded-lg shadow-md">
+            <table class="min-w-full table-auto">
+            <thead>
+                <tr class="bg-gray-200">
+                <th class="px-4 py-2">Title</th>
+                <th class="px-4 py-2">Date</th>
+                <th class="px-4 py-2">Actions</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td class="border px-4 py-2">First Blog Post</td>
+                <td class="border px-4 py-2">June 19, 2024</td>
+                <td class="border px-4 py-2">
+            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 rounded">Edit</button>
+            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded">Delete</button>
+            </td>
+            </tr>
+                            
+         </tbody>
+            </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>

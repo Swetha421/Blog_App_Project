@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url('istockphoto-913172354-612x612.jpg')] bg-center bg-cover bg-no-repeat h-screen text-gray-800">
+
+
+    <header class="bg-black h-20 opacity-75">
+        <nav class="flex justify-between items-center">
+            <ion-icon name="menu" class="w-6 h-6  "></ion-icon>
+        <div class="text-3xl mr-auto ml-8 text-white pt-5">
+            <img src="" alt="Blogzone">
+        </div>
+        <div class=" md:static absolute bg-black text-white md:min-h-fit min-h-[60vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5 pt-5">
+            <ul class="flex md:flex-row flex-col md:items-center  gap-28 w-11/12 text-2xl font-bold">
+                <li>
+                    <a href="home.html" class="hover:text-gray-500">Home</a>
+                </li>
+                <li>
+                    <a href="Blog.html" class="hover:text-gray-500">Blog</a>
+                </li> 
+                
+                <li>
+                    <a href="About.html"class="hover:text-gray-500">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html" class="hover:text-gray-500">Contact</a>
+                </li>
+            </ul>
+        </div>
+            
+            <a href="userdashboard.html" class=" hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mr-4 text-xl">Create New Blog</a>
+        </nav>
+    </header>
+
+    
+    <div class="container mx-auto mb-8">
+        <div class="flex justify-center">
+            <input type="text" placeholder="Search..." class="w-full md:w-1/2 p-2 rounded border border-gray-400">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2">Search</button>
+        </div>
+    </div>
+
+    
+    <main class="container mx-auto space-y-8">
+       
+        <article class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-bold mb-2">Blog Post Title</h2>
+            <p class="text-gray-600 text-sm mb-4">June 19, 2024</p>
+            <img src="image.jpg" alt="Blog Post Image" class="mb-4 rounded-lg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo non urna scelerisque facilisis.</p>
+            <a href="readmore.html" class="inline-block mt-4 text-white bg-gray-900 hover:bg-gray-700 py-2 px-4 rounded">Read More</a>
+        </article>
+
+        
+        <article class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-bold mb-2">Another Blog Post</h2>
+            <p class="text-gray-600 text-sm mb-4">June 18, 2024</p>
+            <img src="readmore.html" alt="Blog Post Image" class="mb-4 rounded-lg">
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec vel eros non lorem volutpat viverra.</p>
+            <a href="#" class="inline-block mt-4 text-white bg-gray-900 hover:bg-gray-700 py-2 px-4 rounded">Read More</a>
+        </article>
+    </main>
+
+    
+    
+
+</body>
+</html>
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+   
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-gray-500 text-white p-6">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold">Admin Dashboard</h2>
+            </div>
+            <nav>
+                <ul class="text-xl">
+                    <li class="mb-4"><a href="#" class="hover:underline ">Dashboard</a></li>
+                    <li class="mb-4"><a href="#" class="hover:underline">Manage Posts</a></li>
+                    <li class="mb-4"><a href="#" class="hover:underline">Manage Users</a></li>
+                    <li class="mb-4"><a href="#" class="hover:underline">Profile</a></li>
+                    <li><a href="#" class="hover:underline">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+       
+        <div class="flex-1 p-6">
+            <header class="mb-8">
+                <h1 class="text-3xl font-bold">Welcome, Admin</h1>
+            </header>
+
+            
+    <section>
+        <h2 class="text-2xl font-bold mb-4">Manage User Posts</h2>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+        <table class="min-w-full table-auto">
+            <thead>
+            <tr class="bg-gray-200">
+            <th class="px-4 py-2">Title</th>
+            <th class="px-4 py-2">Author</th>
+            <th class="px-4 py-2">Date</th>
+            <th class="px-4 py-2">Actions</th>
+            </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                    <td class="border px-4 py-2">First Blog Post</td>
+                     <td class="border px-4 py-2">User1</td>
+                    <td class="border px-4 py-2">June 19, 2024</td>
+                    <td class="border px-4 py-2">
+                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 rounded">Edit</button>
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded">Delete</button>
+                    </td>
+                    </tr>
+                            
+            </tbody>
+        </table>
+    </div>
+     </section>
+        </div>
+    </div>
+
+</body>
+</html>
